@@ -1,0 +1,29 @@
+<!--Para la configuracion general del archivo, el shortcut seria el ! + Tab-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/Estilos.css"> <!--Ruta del archiveo css-->
+    <title>Basicos de HTML</title>
+</head>
+
+<body>
+    <h1>Lista de tareas</h1>
+    <div class="Container">
+        <input type="text" id="TareaInput" placeholder="Escriba una tarea">
+        <button id="AgregarBtn">Agregar tarea</button>
+        <button id="BtnEliminar">Eliminar tarea</button>
+    </div>
+
+    <!--El ol es la etiqueta que define una lista ordenada, y es la etiqueta base en donde
+        se va a insertar los datos de js-->
+    <ul id="ListaTareas"> 
+
+    </ul>
+    
+    <script src="Scripts/Codigo.js"></script> <!--Conexcion con el script-->
+
+</body>
+</html>
